@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.digi{
+    display: flex;
+}
+.comp{
+    color: red;
+}
+.digi span{
+    color: red ;
+}
+.button_reg{
+  color: white;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+.heading_left_r{
+    display: flex;
+    margin-top: 15px;
+}
+.reg_form_r{
+  background-color: rgb(244, 236, 236);
+  width: 40%;
+  height: 66%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img_cargo{
+  margin-top: 15px;
+  width:100vmax;
+  height:100vmin;
+}
+.from_heading_r{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size:40px;
+  padding: 5px;
+  font-family: monospace;
+}
+.input_ele_R{
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+#select{
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(155, 150, 150);
+}
+.register_now{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+#div_link_r{
+  display: flex;
+  margin-top: 10px;
+}
+#Login_r{
+  text-decoration: none;
+  color: red;
+}
+@media only screen and (max-width: 1268px) {
+  .from_heading_r{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .reg_form_r{
+    background-color: rgb(244, 236, 236);
+    width: 60%;
+    height: 750px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input_ele_R{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15px; */
+    grid-template-columns: 1fr;
+  }
+  .img_cargo{
+    margin-top: 15px;
+    width:100vmax;
+    height:850px;
+  }
+  .from_heading_r{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 15px;
+  }
+}
+/* 
+ 
+  .register_button{
+ 
+    border: 1px solid rgb(244, 236, 236);
+    color: white;
+  }  */
+
+
