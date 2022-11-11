@@ -12,7 +12,7 @@ function Register() {
   return (
     <>
     <div className='header'>
-        <div className='digi'><h1>Digi</h1><h1 className='comp'>comp+</h1></div>
+        <div className='digi'><h1>Digi</h1><h1 className='comp'>comp++</h1></div>
         <div><button className='button_reg'>How to Register</button></div>
     </div>
     <div >
